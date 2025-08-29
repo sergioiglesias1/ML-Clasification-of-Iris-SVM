@@ -6,7 +6,7 @@ https://sergioiglesias1.github.io/myportfolio/project_svm.html
 ## Features
 - **Complete Data Analysis**: Exploratory data analysis with correlation matrices and feature distributions.
 - **Preprocessing Pipeline**: StandardScaler integration for feature normalization.
-- **SVM with RBF Kernel**: Implementation using the kernel function: K(xi ,xj)=exp(−γ∥xi−xj​∥2)
+- **SVM with RBF Kernel**: Implementation using RBF Kernel (Radial Basis Function) and SVM Loss Function with L2 Regularization.
 - **Hyperparameter Optimization**: Grid search for optimal C and γ parameters.
 - **Comprehensive Evaluation**: Accuracy, precision, recall, F1-score, and confusion matrix analysis.
 - **Visualization Suite**: Multi-panel plots for data exploration and model interpretation.
