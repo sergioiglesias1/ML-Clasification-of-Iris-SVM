@@ -1,6 +1,6 @@
 # ML-Classification-of-Iris-SVM
 
-This project implements a comprehensive machine learning pipeline for classifying Iris flower species using **Support Vector Machines** (SVM) with **RBF kernel optimization**. The solution includes data exploration, preprocessing, hyperparameter tuning, and detailed performance evaluation. To see the whole process and output generated please find the link below:
+This project implements a comprehensive machine learning pipeline for classifying Iris flower species using **Support Vector Machines** (SVM) with **RBF kernel optimization**. The solution includes data exploration, preprocessing, hyperparameter tuning, and detailed performance evaluation. To see the whole process and output generated please click this link here:
 https://sergioiglesias1.github.io/myportfolio/project_svm.html
 
 ## Features
