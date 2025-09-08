@@ -65,8 +65,6 @@ ax2.set_ylabel("petal width")
 ax2.set_zlabel("petal length")
 ax2.set_title("Iris Scatter 3D", fontweight='bold')
 ax2.legend()
-plt.tight_layout()
-plt.show()
 
 # Create subplots and set the figure size
 fig, axes = plt.subplots(2, 2, figsize=(15, 12))
