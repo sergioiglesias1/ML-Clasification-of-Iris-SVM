@@ -53,6 +53,21 @@ best_svm = svm_grid.best_estimator_
 y_pred_svm = best_svm.predict(X_test)
 y_pred_proba_svm = best_svm.predict_proba(X_test)
 
+# Create a 3D scatter plot
+from mpl_toolkits.mplot3d import Axes3D
+figura = plt.figure(figsize=(22, 16))
+colors = {'setosa':'red', 'versicolor':'green', 'virginica':'blue'}
+ax2 = figura.add_subplot(111, projection='3d')
+for specie, df in df.groupby('species'):
+    ax2.scatter(df['sepal width (cm)'], df['petal width (cm)'], df['petal length (cm)'], c=colors[specie], label=specie, s=40)
+ax2.set_xlabel("sepal width")
+ax2.set_ylabel("petal width")
+ax2.set_zlabel("petal length")
+ax2.set_title("Iris Scatter 3D", fontweight='bold')
+ax2.legend()
+plt.tight_layout()
+plt.show()
+
 # Create subplots and set the figure size
 fig, axes = plt.subplots(2, 2, figsize=(15, 12))
 
